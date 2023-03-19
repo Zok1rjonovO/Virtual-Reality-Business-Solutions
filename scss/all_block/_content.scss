@@ -1,0 +1,99 @@
+.content{
+    h1{
+        width: 546px;
+        padding: 210px 0 29px;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 84px;
+        letter-spacing: 0.02em;
+        background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    }
+    p{
+        width: 534px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        color: #E5E7EB;
+        opacity: 0.8;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    }
+    &__btn{
+        padding: 20px 40px;
+        background: var(--btn-background);
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #F9FAFB;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        border-radius: 6px;
+        border: none;
+    }
+    &__list{
+        position: relative;
+        display: flex;
+    }
+    &__link{
+        display: flex;
+        gap: 32px;
+        margin-top: 31px;
+        a{
+            font-family: 'DM Sans';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #F9FAFB;
+        }
+    }
+    &__sublink{
+        display: flex;
+        align-items: center;
+        gap: 23px;
+        margin-top: 15px;
+        
+    }
+}
+
+.circle{
+    z-index: -1;
+    position: absolute;
+    width: 361px;
+    height: 301.52px;
+    top: 70px;
+    right: 84.58%;
+    background: rgba(29, 78, 216, 0.45);
+    filter: blur(100px);
+}
+
+.circle2{
+    z-index: -1;
+    width: 131px;
+    height: 109.42px;
+    position: absolute;
+    left: 678px;
+    top: 111px;
+    background: #D946EF;
+    filter: blur(100px);
+}
+
+.circle3{
+    position: absolute;
+    z-index: -1;
+    width: 340px;
+    height: 283.98px;
+    right: 0.28%;
+    top: 3.52%;
+    bottom: 90.2%;
+    background: #5141DA;
+    filter: blur(100px);
+}

@@ -1,0 +1,104 @@
+.section{
+    margin-top: 110px;
+    position: relative;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            text-align: center;
+            font-family: 'DM Sans';
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 55px;
+            color: #FFFFFF;
+        }
+        p{
+            margin: 30px 0 40px;
+            width: 480px;
+            font-family: 'DM Sans';
+            font-size: 16px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+    &__items{
+        padding: 32px 50px 35px;
+        width: 270px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;        
+        background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+        border-radius: 34px;
+        h1{
+            font-family: 'DM Sans';
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 36px;
+            color: #FFFFFF;
+        }
+        p{
+            margin: 7px 0 11px;
+            font-family: 'DM Sans';
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+    &__list{
+        display: flex;
+        gap: 30px;
+    }
+}
+
+.circel13{
+    z-index: -1;
+    width: 251.35px;
+    height: 337.39px;
+    position: absolute;
+    left: 0.65%;
+    right: 81.9%;
+    top: 53px;
+    bottom: 18.65%;
+    background: rgba(217, 70, 239, 0.43);
+    filter: blur(100px);
+}
+.circel14{
+    z-index: -1;
+    width: 96.84px;
+    height: 130px;
+    position: absolute;
+    left: 13.14%;
+    top: 73.89%;
+    background: #D946EF;
+    filter: blur(100px);
+}
+.circel15{
+    z-index: -1;
+    width: 251.35px;
+    height: 337.39px;
+    position: absolute;
+    left: 26.85%;
+    right: 55.69%;
+    top: 36.04%;
+    bottom: 19.51%;
+    background: #5141DA;
+    filter: blur(100px);
+}
+.circel16{
+    z-index: -1;
+    width: 251.35px;
+    height: 337.39px;
+    position: absolute;
+    left: 88.22%;
+    right: -5.67%;
+    bottom: 19.51%;
+    background: rgba(217, 70, 239, 0.43);
+    filter: blur(100px);
+}

@@ -1,0 +1,97 @@
+.subsection{
+    margin-top: 120px;
+    position: relative;
+    &__list{
+        width: 1170px;
+        height: 295px;
+        background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+        box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+        border-radius: 34px;
+    }
+    &__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            margin-top: 50px;
+            font-family: 'DM Sans';
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 55px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        p{
+            margin: 13px 0 29px;
+            width: 739px;
+            font-family: 'Roboto';
+            font-size: 16px;
+            line-height: 30px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+    }
+    &__input{
+        position: relative;
+        input{
+            width: 860px;
+            height: 80px;
+            background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+            box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+            border-radius: 70px;
+            border: none;
+            margin-left: 44px;
+            color: #FFFFFF;
+        }
+        button{
+            position: absolute;
+            top: 15px;
+            right: 10px;
+            cursor: pointer;
+            border: none;
+            color: #FFFFFF;
+            padding: 15px 50px;
+            background: var(--btn-background);
+            opacity: 0.9;
+            border-radius: 70px;
+            text-align: center;
+        }
+    }
+}
+
+input[type="text"]{
+    font-family: 'Rubik';
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 0 0 44px;
+    color: #FFFFFF;
+}
+
+.circel17{
+    z-index: -1;
+    position: absolute;
+    width: 293px;
+    height: 361px;
+    left: 172px;
+    background: linear-gradient(166.77deg, #2F79CB -29%, #AF51C5 141.21%), #AF51C5;
+    filter: blur(100px);
+}
+.circel18{
+    z-index: -1;
+    position: absolute;
+    width: 251.35px;
+    height: 340px;
+    background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+    filter: blur(100px);
+}
+.circel19{
+    z-index: -1;
+    position: absolute;
+    width: 251.35px;
+    height: 340px;
+    left: 1084.65px;
+    background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
+    filter: blur(100px);
+}
